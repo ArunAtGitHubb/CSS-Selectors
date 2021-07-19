@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav{
+    background-color: #fa923f;
+    box-sizing: border-box;
+    padding: 16px;
+    border: 1px white solid;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a.active {
+    color: #521751;
+}
+
+.main-section {
+    margin: 20px 5px;
+    height: 800px;
+    border: 1px solid #ccc !important; /*! will override all other specifity css to this, so don't use this*/
+    padding: 16px;
+}
+
+.highlighted {
+    border: 2px solid #fa923f;
+}
